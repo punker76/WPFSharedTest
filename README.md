@@ -2,6 +2,8 @@
 
 Test for x:Shared="False"
 
+![2016-03-19_14h48_14](https://cloud.githubusercontent.com/assets/658431/13898973/0520b45e-ede3-11e5-8fa9-eff10c5c02b2.png)
+
 This brush
 
 ```xmal
