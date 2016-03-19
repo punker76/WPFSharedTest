@@ -24,16 +24,14 @@ namespace WPFSharedTest
 
         private void SetResDict1OnClick(object sender, RoutedEventArgs e)
         {
-            Application.Current.Resources.MergedDictionaries.Remove(res1);
-            Application.Current.Resources.MergedDictionaries.Remove(res2);
-            Application.Current.Resources.MergedDictionaries.Add(res1);
+            this.Resources.MergedDictionaries.Clear();
+            this.Resources.MergedDictionaries.Add(res1);
         }
 
         private void SetResDict2OnClick(object sender, RoutedEventArgs e)
         {
-            Application.Current.Resources.MergedDictionaries.Remove(res1);
-            Application.Current.Resources.MergedDictionaries.Remove(res2);
-            Application.Current.Resources.MergedDictionaries.Add(res2);
+            this.Resources.MergedDictionaries.Clear();
+            this.Resources.MergedDictionaries.Add(res2);
         }
     }
 }
