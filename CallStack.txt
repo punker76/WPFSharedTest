@@ -1,0 +1,94 @@
+>	PresentationCore.dll!System.Windows.Media.Visual.ReleaseOnChannelForCyclicBrush(System.Windows.Media.ICyclicBrush cyclicBrush = {System.Windows.Media.VisualBrush}, System.Windows.Media.Composition.DUCE.Channel channel = {System.Windows.Media.Composition.DUCE.Channel}) Line 922	C#
+ 	PresentationCore.dll!System.Windows.Media.VisualBrush.VisualPropertyChanged(System.Windows.DependencyObject d, System.Windows.DependencyPropertyChangedEventArgs e) Line 137	C#
+ 	WindowsBase.dll!System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs e) Line 2082	C#
+ 	PresentationCore.dll!System.Windows.Media.VisualBrush.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs e) Line 186	C#
+ 	WindowsBase.dll!System.Windows.DependencyObject.NotifyPropertyChange(System.Windows.DependencyPropertyChangedEventArgs args) Line 1756	C#
+ 	WindowsBase.dll!System.Windows.DependencyObject.UpdateEffectiveValue(System.Windows.EntryIndex entryIndex = {System.Windows.EntryIndex}, System.Windows.DependencyProperty dp = {System.Windows.DependencyProperty}, System.Windows.PropertyMetadata metadata, System.Windows.EffectiveValueEntry oldEntry, ref System.Windows.EffectiveValueEntry newEntry = {System.Windows.EffectiveValueEntry}, bool coerceWithDeferredReference, bool coerceWithCurrentValue, System.Windows.OperationType operationType) Line 1570	C#
+ 	WindowsBase.dll!System.Windows.DependencyObject.InvalidateProperty(System.Windows.DependencyProperty dp, bool preserveCurrentValue) Line 1234	C#
+ 	PresentationFramework.dll!System.Windows.ResourceReferenceExpression.InvalidateExpressionValue(object sender, System.EventArgs e) Line 387	C#
+ 	PresentationFramework.dll!System.Windows.FrameworkElement.RaiseClrEvent(System.Windows.EventPrivateKey key, System.EventArgs args) Line 5824	C#
+ 	PresentationFramework.dll!System.Windows.TreeWalkHelper.OnResourcesChanged(System.Windows.DependencyObject d, System.Windows.ResourcesChangeInfo info, bool raiseResourceChangedEvent) Line 611	C#
+ 	PresentationFramework.dll!System.Windows.TreeWalkHelper.OnResourcesChangedCallback(System.Windows.DependencyObject d, System.Windows.ResourcesChangeInfo info, bool visitedViaVisualTree) Line 463	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>._VisitNode(System.Windows.DependencyObject d = {System.Windows.Controls.Grid}, bool visitedViaVisualTree) Line 429	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.VisitNode(System.Windows.FrameworkElement fe, bool visitedViaVisualTree) Line 395	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.VisitNode(System.Windows.DependencyObject d, bool visitedViaVisualTree) Line 421	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.WalkLogicalChildren(System.Windows.FrameworkElement feParent = {System.Windows.Controls.Primitives.UniformGrid}, System.Windows.FrameworkContentElement fceParent = null, System.Collections.IEnumerator logicalChildren = {System.Windows.Media.VisualCollection.Enumerator}) Line 203	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.WalkFrameworkElementLogicalThenVisualChildren(System.Windows.FrameworkElement feParent = {System.Windows.Controls.Primitives.UniformGrid}, bool hasLogicalChildren) Line 313	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.IterateChildren(System.Windows.DependencyObject d) Line 128	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>._VisitNode(System.Windows.DependencyObject d, bool visitedViaVisualTree) Line 435	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.VisitNode(System.Windows.FrameworkElement fe, bool visitedViaVisualTree) Line 395	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.VisitNode(System.Windows.DependencyObject d, bool visitedViaVisualTree) Line 421	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.WalkLogicalChildren(System.Windows.FrameworkElement feParent = {System.Windows.Controls.DockPanel}, System.Windows.FrameworkContentElement fceParent = null, System.Collections.IEnumerator logicalChildren = {System.Windows.Media.VisualCollection.Enumerator}) Line 203	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.WalkFrameworkElementLogicalThenVisualChildren(System.Windows.FrameworkElement feParent = {System.Windows.Controls.DockPanel}, bool hasLogicalChildren) Line 313	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.IterateChildren(System.Windows.DependencyObject d) Line 128	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>._VisitNode(System.Windows.DependencyObject d, bool visitedViaVisualTree) Line 435	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.VisitNode(System.Windows.FrameworkElement fe, bool visitedViaVisualTree) Line 395	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.VisitNode(System.Windows.DependencyObject d, bool visitedViaVisualTree) Line 421	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.WalkLogicalChildren(System.Windows.FrameworkElement feParent = {System.Windows.Controls.Grid}, System.Windows.FrameworkContentElement fceParent = null, System.Collections.IEnumerator logicalChildren = {System.Windows.Controls.Grid.GridChildrenCollectionEnumeratorSimple}) Line 203	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.WalkFrameworkElementLogicalThenVisualChildren(System.Windows.FrameworkElement feParent = {System.Windows.Controls.Grid}, bool hasLogicalChildren) Line 313	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.IterateChildren(System.Windows.DependencyObject d) Line 128	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>._VisitNode(System.Windows.DependencyObject d, bool visitedViaVisualTree) Line 435	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.VisitNode(System.Windows.FrameworkElement fe, bool visitedViaVisualTree) Line 395	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.VisitNode(System.Windows.DependencyObject d, bool visitedViaVisualTree) Line 421	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.WalkLogicalChildren(System.Windows.FrameworkElement feParent = {WPFSharedTest.MainWindow}, System.Windows.FrameworkContentElement fceParent = null, System.Collections.IEnumerator logicalChildren = {System.Windows.SingleChildEnumerator}) Line 203	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.WalkFrameworkElementLogicalThenVisualChildren(System.Windows.FrameworkElement feParent = {WPFSharedTest.MainWindow}, bool hasLogicalChildren) Line 313	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.IterateChildren(System.Windows.DependencyObject d) Line 128	C#
+ 	PresentationFramework.dll!System.Windows.DescendentsWalker<System.Windows.ResourcesChangeInfo>.StartWalk(System.Windows.DependencyObject startNode, bool skipStartNode) Line 68	C#
+ 	PresentationFramework.dll!System.Windows.TreeWalkHelper.InvalidateOnResourcesChange(System.Windows.FrameworkElement fe, System.Windows.FrameworkContentElement fce, System.Windows.ResourcesChangeInfo info) Line 449	C#
+ 	PresentationFramework.dll!System.Windows.ResourceDictionary.NotifyOwners(System.Windows.ResourcesChangeInfo info) Line 1599	C#
+ 	PresentationFramework.dll!System.Windows.ResourceDictionary.OnMergedDictionariesChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e) Line 1833	C#
+ 	System.dll!System.Collections.ObjectModel.ObservableCollection<System.Windows.ResourceDictionary>.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs e) Line 286	C#
+ 	System.dll!System.Collections.ObjectModel.ObservableCollection<System.__Canon>.InsertItem(int index, System.__Canon item) Line 218	C#
+ 	PresentationFramework.dll!System.Windows.ResourceDictionaryCollection.InsertItem(int index, System.Windows.ResourceDictionary item) Line 49	C#
+ 	mscorlib.dll!System.Collections.ObjectModel.Collection<System.Windows.ResourceDictionary>.Add(System.Windows.ResourceDictionary item) Line 68	C#
+ 	WPFSharedTest.exe!WPFSharedTest.MainWindow.SetResDict2OnClick(object sender = {System.Windows.Controls.Button}, System.Windows.RoutedEventArgs e = {System.Windows.RoutedEventArgs}) Line 34	C#
+ 	PresentationCore.dll!System.Windows.RoutedEventHandlerInfo.InvokeHandler(object target, System.Windows.RoutedEventArgs routedEventArgs) Line 81	C#
+ 	PresentationCore.dll!System.Windows.EventRoute.InvokeHandlersImpl(object source = {System.Windows.Controls.Button}, System.Windows.RoutedEventArgs args = {System.Windows.RoutedEventArgs}, bool reRaised = false) Line 205	C#
+ 	PresentationCore.dll!System.Windows.UIElement.RaiseEventImpl(System.Windows.DependencyObject sender = {System.Windows.Controls.Button}, System.Windows.RoutedEventArgs args = {System.Windows.RoutedEventArgs}) Line 2352	C#
+ 	PresentationCore.dll!System.Windows.UIElement.RaiseEvent(System.Windows.RoutedEventArgs e) Line 432	C#
+ 	PresentationFramework.dll!System.Windows.Controls.Primitives.ButtonBase.OnClick() Line 71	C#
+ 	PresentationFramework.dll!System.Windows.Controls.Button.OnClick() Line 267	C#
+ 	PresentationFramework.dll!System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs e) Line 498	C#
+ 	PresentationCore.dll!System.Windows.UIElement.OnMouseLeftButtonUpThunk(object sender, System.Windows.Input.MouseButtonEventArgs e) Line 1140	C#
+ 	PresentationCore.dll!System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(System.Delegate genericHandler, object genericTarget) Line 125	C#
+ 	PresentationCore.dll!System.Windows.RoutedEventArgs.InvokeHandler(System.Delegate handler, object target) Line 341	C#
+ 	PresentationCore.dll!System.Windows.RoutedEventHandlerInfo.InvokeHandler(object target, System.Windows.RoutedEventArgs routedEventArgs) Line 81	C#
+ 	PresentationCore.dll!System.Windows.EventRoute.InvokeHandlersImpl(object source = {System.Windows.Controls.Button}, System.Windows.RoutedEventArgs args = {System.Windows.Input.MouseButtonEventArgs}, bool reRaised = true) Line 205	C#
+ 	PresentationCore.dll!System.Windows.UIElement.ReRaiseEventAs(System.Windows.DependencyObject sender = {System.Windows.Controls.Button}, System.Windows.RoutedEventArgs args = {System.Windows.Input.MouseButtonEventArgs}, System.Windows.RoutedEvent newEvent) Line 2301	C#
+ 	PresentationCore.dll!System.Windows.UIElement.OnMouseUpThunk(object sender, System.Windows.Input.MouseButtonEventArgs e) Line 1024	C#
+ 	PresentationCore.dll!System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(System.Delegate genericHandler, object genericTarget) Line 125	C#
+ 	PresentationCore.dll!System.Windows.RoutedEventArgs.InvokeHandler(System.Delegate handler, object target) Line 341	C#
+ 	PresentationCore.dll!System.Windows.RoutedEventHandlerInfo.InvokeHandler(object target, System.Windows.RoutedEventArgs routedEventArgs) Line 81	C#
+ 	PresentationCore.dll!System.Windows.EventRoute.InvokeHandlersImpl(object source = {System.Windows.Controls.Button}, System.Windows.RoutedEventArgs args = {System.Windows.Input.MouseButtonEventArgs}, bool reRaised = false) Line 205	C#
+ 	PresentationCore.dll!System.Windows.UIElement.RaiseEventImpl(System.Windows.DependencyObject sender = {System.Windows.Controls.Button}, System.Windows.RoutedEventArgs args = {System.Windows.Input.MouseButtonEventArgs}) Line 2352	C#
+ 	PresentationCore.dll!System.Windows.UIElement.RaiseTrustedEvent(System.Windows.RoutedEventArgs args = {System.Windows.Input.MouseButtonEventArgs}) Line 478	C#
+ 	PresentationCore.dll!System.Windows.Input.InputManager.ProcessStagingArea() Line 1008	C#
+ 	PresentationCore.dll!System.Windows.Input.InputManager.ProcessInput(System.Windows.Input.InputEventArgs input) Line 709	C#
+ 	PresentationCore.dll!System.Windows.Input.InputProviderSite.ReportInput(System.Windows.Input.InputReport inputReport) Line 126	C#
+ 	PresentationCore.dll!System.Windows.Interop.HwndMouseInputProvider.ReportInput(System.IntPtr hwnd, System.Windows.Input.InputMode mode, int timestamp, System.Windows.Input.RawMouseActions actions, int x, int y, int wheel) Line 1383	C#
+ 	PresentationCore.dll!System.Windows.Interop.HwndMouseInputProvider.FilterMessage(System.IntPtr hwnd = {System.IntPtr}, MS.Internal.Interop.WindowMessage msg = WM_LBUTTONUP, System.IntPtr wParam = {System.IntPtr}, System.IntPtr lParam = {System.IntPtr}, ref bool handled = false) Line 582	C#
+ 	PresentationCore.dll!System.Windows.Interop.HwndSource.InputFilterMessage(System.IntPtr hwnd = {System.IntPtr}, int msg = 514, System.IntPtr wParam = {System.IntPtr}, System.IntPtr lParam = {System.IntPtr}, ref bool handled = false) Line 1737	C#
+ 	WindowsBase.dll!MS.Win32.HwndWrapper.WndProc(System.IntPtr hwnd = {System.IntPtr}, int msg = 514, System.IntPtr wParam = {System.IntPtr}, System.IntPtr lParam = {System.IntPtr}, ref bool handled = false) Line 341	C#
+ 	WindowsBase.dll!MS.Win32.HwndSubclass.DispatcherCallbackOperation(object o) Line 494	C#
+ 	WindowsBase.dll!System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate callback, object args, int numArgs) Line 104	C#
+ 	WindowsBase.dll!System.Windows.Threading.ExceptionWrapper.TryCatchWhen(object source = {System.Windows.Threading.Dispatcher}, System.Delegate callback, object args, int numArgs, System.Delegate catchHandler = null) Line 37	C#
+ 	WindowsBase.dll!System.Windows.Threading.Dispatcher.LegacyInvokeImpl(System.Windows.Threading.DispatcherPriority priority, System.TimeSpan timeout, System.Delegate method, object args, int numArgs) Line 1445	C#
+ 	WindowsBase.dll!MS.Win32.HwndSubclass.SubclassWndProc(System.IntPtr hwnd = {System.IntPtr}, int msg = 514, System.IntPtr wParam = {System.IntPtr}, System.IntPtr lParam = {System.IntPtr}) Line 392	C#
+ 	[Native to Managed Transition]	
+ 	[Managed to Native Transition]	
+ 	WindowsBase.dll!System.Windows.Threading.Dispatcher.PushFrameImpl(System.Windows.Threading.DispatcherFrame frame = {System.Windows.Threading.DispatcherFrame}) Line 2286	C#
+ 	WindowsBase.dll!System.Windows.Threading.Dispatcher.PushFrame(System.Windows.Threading.DispatcherFrame frame) Line 369	C#
+ 	PresentationFramework.dll!System.Windows.Application.RunDispatcher(object ignore) Line 2756	C#
+ 	PresentationFramework.dll!System.Windows.Application.RunInternal(System.Windows.Window window) Line 1845	C#
+ 	PresentationFramework.dll!System.Windows.Application.Run(System.Windows.Window window) Line 261	C#
+ 	PresentationFramework.dll!System.Windows.Application.Run() Line 222	C#
+ 	WPFSharedTest.exe!WPFSharedTest.App.Main()	C#
+ 	[Native to Managed Transition]	
+ 	[Managed to Native Transition]	
+ 	mscorlib.dll!System.AppDomain.ExecuteAssembly(string assemblyFile, System.Security.Policy.Evidence assemblySecurity, string[] args) Line 1954	C#
+ 	Microsoft.VisualStudio.HostingProcess.Utilities.dll!Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()	Unknown
+ 	mscorlib.dll!System.Threading.ThreadHelper.ThreadStart_Context(object state) Line 74	C#
+ 	mscorlib.dll!System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state, bool preserveSyncCtx) Line 954	C#
+ 	mscorlib.dll!System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state, bool preserveSyncCtx) Line 902	C#
+ 	mscorlib.dll!System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state) Line 891	C#
+ 	mscorlib.dll!System.Threading.ThreadHelper.ThreadStart() Line 111	C#
