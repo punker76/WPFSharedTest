@@ -50,6 +50,10 @@ Application.Current.Resources.MergedDictionaries.Remove(res2);
 Application.Current.Resources.MergedDictionaries.Add(res1);
 ```
 
+A complete Stacktrace from debugging session (with .Net source)  can be found [here](./CallStack.txt)
+
+![2016-03-24_10h37_14](https://cloud.githubusercontent.com/assets/658431/14013832/0a59959c-f1af-11e5-94ff-da7fc742e1c0.png)
+
 Here is the exception
 
 ```
